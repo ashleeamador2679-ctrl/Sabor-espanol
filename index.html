@@ -3,170 +3,198 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sabor Español - Cocina Española</title>
+
+<title>Sabor Español | Cocina Española</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-
 <header>
-    <div class="logo">
-        <h2>Sabor Español</h2>
-        <span>COCINA ESPAÑOLA</span>
-    </div>
 
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Menú</a>
-        <a href="#">Galería</a>
-        <a href="#">Reservas</a>
-        <a href="#">Contacto</a>
-    </nav>
+<nav class="navbar">
 
-    <a href="#" class="btn-nav">Reservar Mesa</a>
+<div class="logo">
+Sabor Español
+</div>
+
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#historia">Historia</a></li>
+<li><a href="#especialidades">Especialidades</a></li>
+<li><a href="#galeria">Galería</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+
+<a href="#" class="btn-nav">Reservar</a>
+
+</nav>
+
+<div class="hero" id="inicio">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<span class="subtitle">
+Auténtica Cocina Española
+</span>
+
+<h1>
+Una Experiencia Gastronómica Inolvidable
+</h1>
+
+<p>
+Sabores tradicionales de España preparados con ingredientes frescos,
+presentados con elegancia y pasión.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#" class="btn-primary">
+Reservar Mesa
+</a>
+
+<a href="#" class="btn-secondary">
+Ver Menú
+</a>
+
+</div>
+
+</div>
+
+</div>
+
 </header>
 
-<!-- HERO -->
+<section class="about" id="historia">
 
-<section class="hero">
+<div class="section-title">
+<span>Nuestra Historia</span>
+<h2>Tradición, pasión y sabor</h2>
+</div>
 
-    <div class="hero-content">
+<div class="about-grid">
 
-        <h1>Sabores<br>de España</h1>
+<div class="about-image">
+<img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200" alt="">
+</div>
 
-        <p>
-            Tradición, pasión y los mejores ingredientes
-            para llevarte a España en cada bocado.
-        </p>
+<div class="about-text">
 
-        <a href="#" class="btn-primary">
-            Ver Menú
-        </a>
+<h3>El auténtico sabor de España</h3>
 
-    </div>
+<p>
+En Sabor Español llevamos la esencia de la gastronomía española
+a cada plato. Nuestra cocina combina tradición, innovación y una
+selección cuidadosa de ingredientes para ofrecer una experiencia única.
+</p>
 
-    <div class="hero-image">
-        <img src="imagenes/hero.png" alt="">
-    </div>
+<p>
+Desde nuestras paellas hasta nuestras tapas gourmet,
+cada receta cuenta una historia.
+</p>
 
-</section>
+<a href="#" class="btn-primary">
+Conocer Más
+</a>
 
-<!-- FEATURES -->
+</div>
 
-<section class="features">
-
-    <div class="feature">
-        <h3>Ingredientes de Calidad</h3>
-        <p>Seleccionados cuidadosamente</p>
-    </div>
-
-    <div class="feature">
-        <h3>Vinos Españoles</h3>
-        <p>La mejor selección</p>
-    </div>
-
-    <div class="feature">
-        <h3>Recetas Tradicionales</h3>
-        <p>Sabores de nuestra tierra</p>
-    </div>
-
-    <div class="feature">
-        <h3>Ambiente Acogedor</h3>
-        <p>Como en casa</p>
-    </div>
+</div>
 
 </section>
 
-<!-- ABOUT -->
+<section class="specialties" id="especialidades">
 
-<section class="about">
-  <div class="about-text">
-    <span>Nuestra Historia</span>
-    <h2>Pasión por la<br>Cocina Española</h2>
+<div class="section-title">
+<span>Especialidades</span>
+<h2>Platos Destacados</h2>
+</div>
 
-        <p>
-            En La Taberna celebramos la riqueza de la gastronomía española
-            con recetas tradicionales y un toque contemporáneo.
-            Nuestro objetivo es ofrecerte una experiencia auténtica,
-            llena de sabor y calidez.
-        </p>
+<div class="cards">
 
-        <a href="#" class="btn-secondary">Conócenos</a>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1515443961218-a51367888e4b?w=800">
+<h3>Paella Valenciana</h3>
+<p>La receta tradicional que conquista paladares.</p>
+</div>
 
-    </div>
-  <div class="about-image">
-    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9" alt="">
-  </div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800">
+<h3>Tapas Gourmet</h3>
+<p>Pequeñas obras maestras llenas de sabor.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1559847844-d721426d6edc?w=800">
+<h3>Jamón Ibérico</h3>
+<p>Uno de los tesoros gastronómicos de España.</p>
+</div>
+
+</div>
+
 </section>
 
-<!-- MENU -->
+<section class="gallery" id="galeria">
 
-<section class="menu">
-  <span>Nuestro Menú</span>
-  <h2>Platos Destacados</h2>
-  <div class="cards">
+<div class="section-title">
+<span>Galería</span>
+<h2>Nuestros Espacios y Platos</h2>
+</div>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab">
-            <h3>Jamón Ibérico</h3>
-            <p>El sabor de nuestra tradición</p>
-        </div>
+<div class="gallery-grid">
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1604908554168-c81cbd9b90d6">
-            <h3>Gambas al Ajillo</h3>
-            <p>Clásico irresistible</p>
-        </div>
+<img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200">
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200">
+<img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200">
+<img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200">
+<img src="https://images.unsplash.com/photo-1515669097368-22e68427d265?w=1200">
+<img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200">
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1633436375153-d7045cb93e9d">
-            <h3>Patatas Bravas</h3>
-            <p>Crujientes y sabrosas</p>
-        </div>
+</div>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e">
-            <h3>Tarta de Queso</h3>
-            <p>El final perfecto</p>
-        </div>
-  </div>
 </section>
 
-<!-- CTA -->
+<section class="reservation">
 
-<section class="cta">
-  <h2>¿Listo para disfrutar?</h2>
-  <h1>Reserva tu Mesa</h1>
-  <a href="#">Reservar Ahora</a>
+<div class="reservation-content">
+
+<span>Reserva Ahora</span>
+
+<h2>
+Vive una experiencia gastronómica de lujo
+</h2>
+
+<p>
+Haz tu reserva y disfruta de los auténticos sabores de España.
+</p>
+
+<a href="#" class="btn-primary">
+Reservar Mesa
+</a>
+
+</div>
+
 </section>
 
-<!-- FOOTER -->
+<footer id="contacto">
 
-<footer>
+<h3>Sabor Español</h3>
 
-    <div>
-        <h3>Sabor Espñaol</h3>
-        <p>Cocina Española</p>
-    </div>
+<p>
+Cocina Española • Tradición • Elegancia
+</p>
 
-    <div>
-        Calle Mayor 15<br>
-        Madrid, España
-    </div>
-
-    <div>
-        +34 91 123 45 67
-    </div>
-
-    <div>
-        hola@lataberna.es
-    </div>
+<p>
+© 2026 Todos los derechos reservados.
+</p>
 
 </footer>
 
