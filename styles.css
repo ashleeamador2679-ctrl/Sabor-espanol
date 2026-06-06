@@ -60,8 +60,27 @@ list-style:none;
 }
 
 .navbar a{
-color:white;
-font-weight:500;
+    color:white;
+    font-weight:500;
+}
+
+.navbar.scrolled{
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+.navbar.scrolled .logo{
+    color:#7B1E2B;
+}
+
+.navbar.scrolled a{
+    color:#111;
+}
+
+.navbar.scrolled .btn-nav{
+    color:white !important;
+    background:#7B1E2B;
 }
 
 .btn-nav{
